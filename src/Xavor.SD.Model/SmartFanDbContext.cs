@@ -55,7 +55,7 @@ namespace Xavor.SD.Model
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=tcp:testingsmartfan.database.windows.net,1433;Initial Catalog=testing-SF-DB-21 june;Persist Security Info=False;User ID=mahwish;Password=Apple1234567;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                optionsBuilder.UseSqlServer("Server=tcp:sqlserverterraform.database.windows.net,1433;Initial Catalog=SQLDBterraform;Persist Security Info=False;User ID=Mahwish;Password=Banana1234567;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             }
         }
 
